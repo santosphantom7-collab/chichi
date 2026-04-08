@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Chichi ❤️</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to bottom, #0b1a2a, #2a4d69);
+        color: white;
+        text-align: center;
+    }
+
+    .container {
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 2.7em;
+        color: #ff6b81;
+    }
+
+    .spiderman {
+        font-size: 4em;
+        animation: swing 2s infinite alternate ease-in-out;
+    }
+
+    @keyframes swing {
+        from { transform: rotate(-12deg); }
+        to { transform: rotate(12deg); }
+    }
+
+    .letter {
+        margin-top: 25px;
+        font-size: 1.2em;
+        line-height: 1.9;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(255,255,255,0.06);
+        padding: 25px;
+        border-radius: 18px;
+    }
+
+    button {
+        margin-top: 30px;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 25px;
+        background: #ff6b81;
+        color: white;
+        font-size: 1em;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #ff3b5c;
+    }
+
+    .hidden-message {
+        display: none;
+        margin-top: 20px;
+        font-size: 1.15em;
+        color: #ffd6db;
+    }
+
+    footer {
+        margin-top: 40px;
+        font-size: 0.9em;
+        opacity: 0.7;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="spiderman">🕷️</div>
+    <h1>Hey my Chichi… ❤️</h1>
+
+    <div class="letter">
+        I’ve been thinking a lot… and I need to say this properly. <br><br>
+
+        I know I’ve been acting a little weird lately…  
+        and I’m really sorry for that. 🥺 <br><br>
+
+        You didn’t deserve that version of me… not even a little. <br><br>
+
+        Sometimes I get in my own head, overthink, move different…  
+        but none of that changes one simple thing: <br><br>
+
+        I love you. ❤️ <br><br>
+
+        Even Spider-Man gets tangled up sometimes…  
+        but he never forgets who he’s doing it all for. <br><br>
+
+        And me? It’s you. Always you. <br><br>
+
+        I love you in that soft, clingy, “I miss you for no reason” kind of way.  
+        The kind that makes me smile randomly when I think about you. 😌 <br><br>
+
+        You’ve got me… fully.  
+        Soft for you, a little obsessed with you, not even trying to hide it anymore. <br><br>
+
+        I might mess up sometimes…  
+        but I’m here, I’m trying, and I’m choosing you every single time. <br><br>
+
+        — Your Spider-Man 🕷️❤️
+    </div>
+
+    <button onclick="showMessage()">Don’t tap this unless you miss me 😌</button>
+
+    <div class="hidden-message" id="hiddenMessage">
+        So you miss me huh… I knew it 😏 <br><br>
+
+        Come here… I’d pull you close, hold you for a second…  
+        then kiss your forehead like you’re mine. ❤️ <br><br>
+
+        I’ve got you, Chichi. Always.
+    </div>
+
+    <footer>
+        Your friendly neighborhood boyfriend 🕸️
+    </footer>
+</div>
+
+<script>
+function showMessage() {
+    document.getElementById("hiddenMessage").style.display = "block";
+}
+</script>
+
+</body>
+</html>
